@@ -1,0 +1,35 @@
+package javaTestProject;
+
+import java.awt.*;
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+public class Main {
+
+	private final Scanner input = new Scanner(System.in);
+	private String calculateMortgage() {
+		
+		
+	}
+	private void inputPrincipal() {
+		System.out.print("Principal: ");
+		int principal = input.nextInt();
+	}
+	private void inputAnnualInterestRate() {
+		System.out.print("Annual Interest Rate: ");
+		double annualInterestRate = input.nextDouble();
+	}
+	private void inputPeriodInYears() {
+		System.out.print("Period (Years): ");
+		int periodInYears = input.nextInt();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		calculateMortgate(getInput());
+		System.out.print("Mortgage = ");
+		NumberFormat currency = NumberFormat.getCurrencyInstance();
+		
+		
+	}
+
+}
