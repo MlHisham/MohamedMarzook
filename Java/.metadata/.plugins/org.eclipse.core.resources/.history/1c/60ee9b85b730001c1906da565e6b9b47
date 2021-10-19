@@ -1,0 +1,13 @@
+package javaTestProject;
+
+import java.awt.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Point point1 = new Point(1,1);
+		Point point2 = point1;
+	}
+
+}
